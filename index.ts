@@ -4,6 +4,8 @@ import inquirer from "inquirer";
 
 const random = Math.floor(Math.random()*10 + 1)
 
+console.log("welcome to number gues game ")
+
 const answer = await inquirer.prompt([
     {message : "please guess a number between 1 to 10 ", name : "yourguessnumber" , type : "number"}
 ])
